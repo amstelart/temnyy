@@ -1,0 +1,27 @@
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div id="feedback-wrap">
+		<form action="ajax.php.html" method="POST" id="feedback-form" onsubmit="submitFeedback(); return false;">
+		<input type="hidden" name="siteid" value="s1"/>
+		<input type="hidden" name="langid" value="ru"/>				
+		<div class="row first-row">
+			<input type="hidden" name="sessid" id="sessid" value="cb29096238ef2d97457e82d60e7c884d" />			<div class="column medium-6 small-12">
+				<input type="text" class="form-el" placeholder="Ваше имя" name="user_name" value="">
+			</div>
+			<div class="column medium-6 small-12">
+				<input type="text" class="form-el input-mail" placeholder="Эл.почта" name="user_email" value="">
+			</div>
+		</div>
+		<div class="row first-row">
+			<div class="column small-12">
+				<textarea class="form-el" name="MESSAGE" rows="6" placeholder="Текст вопроса"></textarea>
+				<input type="hidden" name="PARAMS_HASH" value="04e6da7772d842d25f0a90d393f5e839">
+				<input type="hidden" name="is_ajax_feedback" value="Y">
+				<input type="hidden" name="submit" value="1">
+                <input type="hidden" name="PROD_NAME" value="">
+								
+				<input class="btn-def" id="feedback-button" type="submit" value="Отправить">
+			</div>
+		</div>
+	</form>
+</div>

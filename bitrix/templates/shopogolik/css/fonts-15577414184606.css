@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('../fonts/OS bold/fonts/OpenSansBold.eot');
+    src: url('../fonts/OS bold/fonts/OpenSansBold.eot') format('embedded-opentype'),
+    url('../fonts/OS bold/fonts/OpenSansBold.woff2') format('woff2'),
+    url('../fonts/OS bold/fonts/OpenSansBold.woff') format('woff'),
+    url('../fonts/OS bold/fonts/OpenSansBold.ttf') format('truetype'),
+    url('../fonts/OS bold/fonts/OpenSansBold.svg#OpenSansBold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/OS reg/fonts/OpenSansRegular.eot');
+    src: url('../fonts/OS reg/fonts/OpenSansRegular.eot') format('embedded-opentype'),
+    url('../fonts/OS reg/fonts/OpenSansRegular.woff2') format('woff2'),
+    url('../fonts/OS reg/fonts/OpenSansRegular.woff') format('woff'),
+    url('../fonts/OS reg/fonts/OpenSansRegular.ttf') format('truetype'),
+    url('../fonts/OS reg/fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansSemiBold';
+    src: url('../fonts/OS semi/fonts/OpenSansSemiBold.eot');
+    src: url('../fonts/OS semi/fonts/OpenSansSemiBold.eot') format('embedded-opentype'),
+    url('../fonts/OS semi/fonts/OpenSansSemiBold.woff2') format('woff2'),
+    url('../fonts/OS semi/fonts/OpenSansSemiBold.woff') format('woff'),
+    url('../fonts/OS semi/fonts/OpenSansSemiBold.ttf') format('truetype'),
+    url('../fonts/OS semi/fonts/OpenSansSemiBold.svg#OpenSansSemiBold') format('svg');
+}
+@font-face {
+    font-family: 'PTSansBold';
+    src: url('../fonts/PT bold/fonts/PT_SansWebBold.eot');
+    src: url('../fonts/PT bold/fonts/PT_SansWebBold.eot') format('embedded-opentype'),
+    url('../fonts/PT bold/fonts/PT_SansWebBold.woff2') format('woff2'),
+    url('../fonts/PT bold/fonts/PT_SansWebBold.woff') format('woff'),
+    url('../fonts/PT bold/fonts/PT_SansWebBold.ttf') format('truetype'),
+    url('../fonts/PT bold/fonts/PT_SansWebBold.svg#PT_SansWebBold') format('svg');
+}
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url('../fonts/PT reg/fonts/PT_SansWebRegular.eot');
+    src: url('../fonts/PT reg/fonts/PT_SansWebRegular.eot') format('embedded-opentype'),
+    url('../fonts/PT reg/fonts/PT_SansWebRegular.woff2') format('woff2'),
+    url('../fonts/PT reg/fonts/PT_SansWebRegular.woff') format('woff'),
+    url('../fonts/PT reg/fonts/PT_SansWebRegular.ttf') format('truetype'),
+    url('../fonts/PT reg/fonts/PT_SansWebRegular.svg#PT_SansWebRegular') format('svg');
+}
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('../fonts/U bold/fonts/UbuntuBold.eot');
+    src: url('../fonts/U bold/fonts/UbuntuBold.eot') format('embedded-opentype'),
+    url('../fonts/U bold/fonts/UbuntuBold.woff2') format('woff2'),
+    url('../fonts/U bold/fonts/UbuntuBold.woff') format('woff'),
+    url('../fonts/U bold/fonts/UbuntuBold.ttf') format('truetype'),
+    url('../fonts/U bold/fonts/UbuntuBold.svg#UbuntuBold') format('svg');
+}
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('../fonts/U med/fonts/UbuntuMedium.eot');
+    src: url('../fonts/U med/fonts/UbuntuMedium.eot') format('embedded-opentype'),
+    url('../fonts/U med/fonts/UbuntuMedium.woff2') format('woff2'),
+    url('../fonts/U med/fonts/UbuntuMedium.woff') format('woff'),
+    url('../fonts/U med/fonts/UbuntuMedium.ttf') format('truetype'),
+    url('../fonts/U med/fonts/UbuntuMedium.svg#UbuntuMedium') format('svg');
+}
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('../fonts/U reg/fonts/UbuntuRegular.eot');
+    src: url('../fonts/U reg/fonts/UbuntuRegular.eot') format('embedded-opentype'),
+    url('../fonts/U reg/fonts/UbuntuRegular.woff2') format('woff2'),
+    url('../fonts/U reg/fonts/UbuntuRegular.woff') format('woff'),
+    url('../fonts/U reg/fonts/UbuntuRegular.ttf') format('truetype'),
+    url('../fonts/U reg/fonts/UbuntuRegular.svg#UbuntuRegular') format('svg');
+}
+@font-face {
+    font-family: 'VogueMedium';
+    src: url('../fonts/V med/fonts/VOGUE_HIGHLINE_SERIF_MEDIUM.otf');
+}
+
+[data-font="UbuntuRegular"] {
+    font-family: 'UbuntuRegular';
+}
+[data-font="PTSansRegular"] {
+    font-family: 'PTSansRegular';
+}
+[data-font="OpenSansRegular"] {
+    font-family: 'OpenSansRegular';
+}
+
+.group__title {
+    font-size:  13px;
+    margin-right: 12px;
+    padding: 7px;
+    /*border: 1px solid #e0e2e5;*/
+    border-radius: 5px;
+    transition: all ease .2s;
+}
+.group__title:hover {
+    /*border: 1px solid #c2c2c2;*/
+    transition: all ease .2s;
+}
+.group__title.active {
+    transition: all ease .2s;
+    box-shadow: 0 0 3px 3px #ccc;
+}
+.font-group {
+    display: flex;
+    align-items:center;
+}

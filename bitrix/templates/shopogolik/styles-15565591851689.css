@@ -1,0 +1,31 @@
+.btn-small-square, .btn-favorite:hover, .btn-favorite:active, .btn-a-small:hover, .btn-a-large:hover, .btn-a-small:active, .btn-a-large:active {
+    background-color: #e4bd8a;
+}
+.compare-active, .favorite-active, .compare-active:hover, .favorite-active:hover, label[data-bx-user-consent] input:checked + a:after, [type="checkbox"]:checked + .checkbox-icon:before, .sale-paysystem-yandex-button-item, .bx-blue .btn.btn-default
+{
+    background-color: #e4bd8a;
+}
+.btn-a-large, .btn-a-small, .btn-close-circle, .btn-favorite, .btn-large-light, .btn-small-light {
+    color:#000000;
+    border:1px solid #000000;
+}
+.btn-small-square, .btn-favorite:hover, .btn-favorite:active, .btn-a-small:hover, .btn-a-large:hover, .btn-a-small:active, .btn-a-large:active {
+    background-color: #e4bd8a;
+}
+.sale-paysystem-yandex-button-item:hover, .to-basket-btn.slider-product-options.btn-a-large.in-basket:hover, .btn-def.in-basket:hover {
+    background-color: #e4bd8a !important;
+}
+.in-basket{
+    background: #e4bd8a !important;
+}
+a.scroll-to-top:hover,.button:hover, .button:focus, .in-basket .button:hover, .in-basket .button:focus {
+    background-color: #e4bd8a;
+}
+
+.configurator .left-block, .jspDrag, .button--white:hover, .products-list__item .buttons .to-basket-btn:hover, .products-list__item .image .preview-btn:hover, .main-features__item:hover .slider-handle, .pagination .current, .pagination a:hover, .pagination button:hover, #modef, .configurator .switch:hover, .configurator .right-block .values .header-inner
+{
+    background: #e4bd8a;
+}
+.button--white:hover, .products-list__item .buttons .to-basket-btn:hover, .products-list__item .image .preview-btn:hover {
+    color: #e4bd8a;
+}
