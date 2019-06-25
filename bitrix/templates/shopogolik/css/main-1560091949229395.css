@@ -3225,17 +3225,30 @@ select[multiple] {
   white-space: nowrap;
 }
 
-.banner.banner--custom.caption--centered .caption::after {
+.column.medium-5 > .block-list .banner.banner--custom.caption--centered .caption::after {
   display: none;
 }
 
-.banner.banner--custom.caption--centered .back-image {
+.column.medium-5 > .block-list .banner.banner--custom.caption--centered .back-image {
   transform: scale(0.8);
 }
 
-.banner:hover.banner--custom.caption--centered .back-image {
+.column.medium-5 > .block-list .banner.banner--custom.caption--centered:hover .back-image {
   transform: scale(1);
 }
+
+.column.medium-7 > .block-list .banner.banner--custom.caption--centered .caption {
+  padding: 18px;
+  display: block;
+  position: absolute;
+  right: 0;
+  left: auto;
+  transform: none;
+  top: 30%;
+  border-bottom: 5px solid #e4bd8a;
+  background: #fff;
+}
+
 
 .banner .caption {
     padding: 18px;
